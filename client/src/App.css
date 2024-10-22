@@ -1,0 +1,36 @@
+
+.playground-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-container{
+  min-height: 60vh;
+  display: flex;
+}
+
+li{
+  list-style-type: none;
+  line-height: 20px;
+}
+
+.files{
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.file-node{
+  /* padding: 1px; */
+  cursor: pointer;
+}
+
+p{
+  font-weight: 600;
+}
+
+.editor p{
+  font-size: 20px;
+}
